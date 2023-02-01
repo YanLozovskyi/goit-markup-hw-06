@@ -702,7 +702,7 @@ address {
   left: 50%;
   padding: 24px;
   min-height: 576px;
-  max-width: 408px;
+  width: 408px;
   transform: translate(-50%, -50%) scaleY(1);
   opacity: 1;
 
@@ -745,6 +745,7 @@ address {
 .modal-title-text {
   margin-bottom: 16px;
 
+  text-align: center;
   font-weight: 500;
   color: var(--title-text-color);
 }
@@ -823,4 +824,56 @@ address {
 
 .modal-text-area:focus {
   border-color: var(--accent-color);
+}
+
+.modal-checkbox-label {
+}
+
+.modal-checkbox-wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.modal-checkbox-icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+}
+
+.modal-checkbox {
+}
+
+.modal-checkbox-icon {
+}
+
+.privacy-policy-text {
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #757575;
+}
+
+.privacy-policy-link {
+  color: var(--accent-color);
+}
+
+.modal-submit-btn {
+  margin: auto;
+  align-self: auto;
+  min-width: 169px;
+  padding: 16px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+  color: var(--color-white);
+
+  transition: background-color 250ms var(--cubic);
+}
+
+.modal-submit-btn:is(:focus, :hover) {
+  background-color: var(--color-for-interactive-elements);
 }
