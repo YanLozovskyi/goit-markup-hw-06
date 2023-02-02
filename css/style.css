@@ -860,7 +860,7 @@ address {
 .modal-checkbox:checked + .modal-checkbox-label span {
   background-color: var(--accent-color);
   border: none;
-  fill: #ffffff;
+  fill: var(--color-white);
 }
 
 .modal-submit-btn {
